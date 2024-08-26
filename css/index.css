@@ -36,3 +36,57 @@
 .navbar .nav-item .nav-btn {
     background-color: #1466B8;
 }
+
+/* Dashboard */
+.dashboard {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #F7FAFC;
+  color: #000;
+}
+
+.dashboard .dashboard-title {
+  font-size: 2rem;
+  font-weight: 700;
+  font-style: normal;
+  color: #000;
+}
+
+.invoices-table table ,
+.customers-table table {
+    border: 2px solid #E2E8F0;
+}
+
+.invoices-table table thead tr th ,
+.invoices-table table tbody tr th,
+.invoices-table table tbody tr td,
+.customers-table table thead tr th,
+.customers-table table tbody tr th,
+.customers-table table tbody tr td{
+    border-bottom: 2px solid #E2E8F0;
+}
+
+.invoices-table table thead tr th,
+.invoices-table table tbody tr th,
+.invoices-table table tbody tr td,
+.customers-table table thead tr th,
+.customers-table table tbody tr th,
+.customers-table table tbody tr td{
+    border-right: 0;
+    border-left: 0;
+}
+
+
+.invoices-title, .customers-title {
+  font-weight: 500;
+  font-style: normal;
+  color: #000;
+}
+
+.invoices-table .date,
+.invoices-table .total-price,
+.customers-table .customer-name{
+    color: #4f7396;
+}

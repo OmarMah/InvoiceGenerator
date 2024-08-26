@@ -25,12 +25,12 @@
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <i class="fas fa-bars"></i>
+        <i class="bi bi-list"></i>
       </button>
   
       <!-- Collapsible wrapper -->
-      <div class="collapse navbar-collapse d-flex flex-row justify-content-end" id="navbarSupportedContent">
-        <ul class="navbar-nav">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav w-100 d-flex justify-content-end">
           <!-- Link -->
           <li class="nav-item active"><a class="nav-link" href="#">Dashboard</a></li>
           <li class="nav-item"><a class="nav-link" href="#">Invoices</a></li>
@@ -43,6 +43,98 @@
     <!-- Container wrapper -->
   </nav>
   <!-- Navbar -->
+
+  <!-- Dashboard -->
+  <section class="container dashboard mt-5">
+    <div class="row">
+        <div class="col-sm-10 offset-1">
+            <h1 class="dashboard-title">Dashboard</h1>
+            <section class="invoices mt-3">
+                <h6 class="invoices-title">Recent Invoices</h2>
+                    <div class="table-responsive invoices-table">
+                        <table class="table table-bordered ">
+                          <thead>
+                            <tr>
+                              <th scope="col">Invoice ID</th>
+                              <th scope="col">Date</th>
+                              <th scope="col">Status</th>
+                              <th scope="col">Total</th>
+                              <th scope="col"></th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <th scope="row">1</th>
+                              <td class="date">Jun 1,2023</td>
+                              <td><span class="badge rounded-pill badge-success">Success</span></td>
+                              <td class="total-price">$125</td>
+                              <td><button type="button" class="btn btn-sm btn-secondary" data-mdb-ripple-init>View</button></td>
+                            </tr>
+                            <tr>
+                              <th scope="row">2</th>
+                              <td class="date">Jun 1,2023</td>
+                              <td><span class="badge rounded-pill badge-light">Pending</span></td>
+                              <td class="total-price">$125</td>
+                              <td><button type="button" class="btn btn-sm btn-secondary" data-mdb-ripple-init>View</button></td>
+                            </tr>
+                            <tr>
+                              <th scope="row">3</th>
+                              <td class="date">Jun 1,2023</td>
+                              <td><span class="badge rounded-pill badge-success">Success</span></td>
+                              <td class="total-price">$125</td>
+                              <td><button type="button" class="btn btn-sm btn-secondary" data-mdb-ripple-init>View</button></td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+            </section>
+            <section class="customers mt-3">
+                <h6 class="customers-title">Recent Customers</h2>
+                    <div class="table-responsive customers-table">
+                        <table class="table table-bordered ">
+                          <thead>
+                            <tr>
+                              <th scope="col">Customer ID</th>
+                              <th scope="col">Name</th>
+                              <th scope="col">Total Paid</th>
+                              <th scope="col"></th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <th scope="row">1</th>
+                              <td class="customer-name">Omar Mahmoud</td>
+                              <td class="total-price">$125</td>
+                              <td>
+                                <button type="button" class="btn btn-sm btn-secondary" data-mdb-ripple-init>View</button>
+                                <button type="button" class="btn btn-sm btn-light" data-mdb-ripple-init data-mdb-ripple-color="dark">Edit</button>
+                              </td>
+                            </tr>
+                            <tr>
+                              <th scope="row">2</th>
+                              <td class="customer-name">Omar Mahmoud</td>
+                              <td class="total-price">$125</td>
+                              <td>
+                                <button type="button" class="btn btn-sm btn-secondary" data-mdb-ripple-init>View</button>
+                                <button type="button" class="btn btn-sm btn-light" data-mdb-ripple-init data-mdb-ripple-color="dark">Edit</button>
+                              </td>
+                            </tr>
+                            <tr>
+                              <th scope="row">3</th>
+                              <td class="customer-name">Omar Mahmoud</td>
+                              <td class="total-price">$125</td>
+                              <td>
+                                <button type="button" class="btn btn-sm btn-secondary" data-mdb-ripple-init>View</button>
+                                <button type="button" class="btn btn-sm btn-light" data-mdb-ripple-init data-mdb-ripple-color="dark">Edit</button>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+            </section>
+        </div>
+    </div>
+  </section>
     <script src="js/mdb.umd.min.js"></script>
 </body>
 </html>
