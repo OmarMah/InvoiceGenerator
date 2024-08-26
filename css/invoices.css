@@ -91,18 +91,5 @@
 }
 
 .search-input{
-    border: 0!important;
-    background-color: #e1e1f7!important;
     font-weight: 500;
 }
-
-.search-box{
-    border: 0!important;
-}
-
-.search-box:focus{
-    border: 0!important;
-    outline: none;
-    box-shadow: none;
-}
-
