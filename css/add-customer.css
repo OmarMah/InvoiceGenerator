@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+/* Navbar */
+.navbar {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 4s00;
+  font-style: normal;
+  background-color: #F7FAFC;
+  box-shadow: none;
+  border-bottom: 1px solid #E2E8F0;
+}
+
+.navbar .navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-style: normal;
+  color: #000;
+}
+
+.navbar .brand-icon {
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-style: normal;
+  color: #000;
+}
+
+.navbar-nav .nav-item .nav-link {
+  font-size: 1rem;
+  font-weight: 500;
+  font-style: normal;
+  color: #0D141C;
+  margin-right: 30px;
+}
+
+.navbar .nav-item .nav-btn {
+    background-color: #1466B8;
+}
+
+/* Dashboard */
+.customers {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #F7FAFC;
+    color: #000;
+}
+  
+.customers .main-title {
+font-size: 2rem;
+font-weight: 700;
+font-style: normal;
+color: #000;
+}

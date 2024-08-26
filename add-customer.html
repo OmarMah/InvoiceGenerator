@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <link rel="stylesheet" href="css/add-customer.css">
+</head>
+<body>
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-light navbar-light">
+    <!-- Container wrapper -->
+    <div class="container">
+      <!-- Navbar brand -->
+      <a class="navbar-brand" href="index.html"><i class="bi bi-slash-square-fill me-2"></i> SteelCo</a>
+  
+      <!-- Toggle button -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-mdb-toggle="collapse"
+        data-mdb-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="bi bi-list"></i>
+      </button>
+  
+      <!-- Collapsible wrapper -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav w-100 d-flex justify-content-end">
+          <!-- Link -->
+          <li class="nav-item active"><a class="nav-link" href="index.html">Dashboard</a></li>
+          <li class="nav-item"><a class="nav-link" href="invoices.html">Invoices</a></li>
+          <li class="nav-item"><a class="nav-link" href="customers.html">Customers</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Reports</a></li>
+          <li class="nav-item mt-1 ml-2"><a class="btn btn-primary nav-btn" href="#" data-mdb-ripple-init>New</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- Container wrapper -->
+  </nav>
+  <!-- Navbar -->
+
+  <!-- customers -->
+  <section class="container customers mt-5">
+    <div class="row">
+        <div class="col-sm-10 offset-1">
+            <div class="section-header d-flex justify-content-center">
+                <h1 class="main-title">Create New Customer</h1>
+            </div>
+        </div>
+    </div>
+  </section>
+  <section class="container mt-4">
+    <div class="col-md-6 offset-md-3">
+        <form>
+            <!-- Email input -->
+            <div data-mdb-input-init class="form-outline mb-4">
+              <input type="email" id="form2Example1" class="form-control form-control-lg" />
+              <label class="form-label" for="form2Example1"><i class="bi bi-person-fill me-1"></i> Customer Name</label>
+            </div>
+          
+            <!-- Password input -->
+            <div data-mdb-input-init class="form-outline mb-4">
+              <input type="text" id="form2Example2" class="form-control form-control-lg" />
+              <label class="form-label" for="form2Example2"><i class="bi bi-telephone-fill me-1"></i> Phone Number</label>
+            </div>
+
+            <!-- Password input -->
+            <div data-mdb-input-init class="form-outline mb-4">
+                <input type="text" id="form2Example2" class="form-control form-control-lg" />
+                <label class="form-label" for="form2Example2"><i class="bi bi-geo-alt-fill me-1"></i> Address</label>
+            </div>
+
+            <!-- Password input -->
+            <div data-mdb-input-init class="form-outline mb-4">
+                <input type="text" id="form2Example2" class="form-control form-control-lg" />
+                <label class="form-label" for="form2Example2"><i class="bi bi-sticky-fill me-1"></i> Customer Note</label>
+            </div>
+
+            <!-- Submit button -->
+             <div class="row">
+                 <button data-mdb-ripple-init type="button" class="col-md-3 offset-md-2 btn btn-light mb-4 cancel-btn">Cancel</button>
+                 <button data-mdb-ripple-init type="button" class="col-md-3 offset-md-2 btn btn-primary mb-4 save-btn">Save</button>
+             </div>
+          </form>
+    </div>
+  </section>
+
+  <script src="js/mdb.umd.min.js"></script>
+    
+</body>
+</html>
